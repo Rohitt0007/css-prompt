@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(https://plus.unsplash.com/premium_photo-1664474653221-8412b8dfca3e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+   padding: 70px;
+}
+
+.flyer-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #474646b2;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.flyer-header {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.flyer-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+}
+
+.flyer-header p {
+    margin: 5px 0;
+    color: white;
+}
+
+.flyer-body {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flyer-body p {
+    margin: 10px 0;
+    color: white;
+}
+
+.flyer-footer {
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.flyer-footer p {
+    margin: 0;
+    color:white;
+}
+
+.flyer-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.flyer-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .flyer-container {
+        padding: 10px;
+    }
+
+    .flyer-header h1 {
+        font-size: 1.5em;
+    }
+
+    .flyer-body p {
+        font-size: 0.9em;
+    }
+
+    .flyer-footer p {
+        font-size: 0.8em;
+    }
+}
