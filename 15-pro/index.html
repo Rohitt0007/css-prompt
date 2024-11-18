@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css
+    ">
+</head>
+<body>
+   <div class="main">
+    <div class="nav">
+        <h1>Book For Travel</h1>
+    </div>
+    <form>
+         <label for="destination">Destination:</label>
+        <select id="destination">
+            <option value="">Select Destination</option>
+            <option value="India">India</option>
+            <option value="Srilanka">Srilanka</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Indonesia">Indonesia</option>
+        </select>
+
+        <label for="departure-date"></label>
+        <input type="date" id="departure-date">
+
+        <label for="return-date">Return Date:</label>
+        <input type="date" id="return-date">
+
+        <label for="adults">Adults:</label>
+        <input type="number" id="adults" min="1" value="1">
+
+        <label for="children">Children:</label>
+        <input type="number" id="children" min="0" value="0">
+
+        <button type="submit">Book Now</button>
+    </form>
+   </div>
+</body>
+</html>
