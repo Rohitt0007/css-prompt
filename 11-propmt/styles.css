@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.facebook img {
+    filter: invert(56%) sepia(19%) saturate(422%) hue-rotate(189deg) brightness(87%) contrast(88%);
+}
+
+.twitter img {
+    filter: invert(66%) sepia(14%) saturate(2044%) hue-rotate(168deg) brightness(91%) contrast(86%);
+}
+
+.instagram img {
+    filter: invert(35%) sepia(43%) saturate(652%) hue-rotate(293deg) brightness(86%) contrast(90%);
+}
+
+.linkedin img {
+    filter: invert(31%) sepia(100%) saturate(566%) hue-rotate(178deg) brightness(87%) contrast(87%);
+}
